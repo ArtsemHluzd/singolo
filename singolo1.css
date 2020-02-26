@@ -20,6 +20,11 @@ body {
     background-color: #f06c64; 
 }
 
+.wrapper-services {
+    background-color: black;
+    height: 100px;
+}
+
 .logo {
     margin-left: 40px;
     margin-top: 30px;
@@ -58,6 +63,63 @@ li:first-child {
     color: #494e62;
     vertical-align: 50%;
     margin-left: 12px;
+}
+
+.horizontal-phone {
+    position: relative;
+    left: 425px;
+    top: 175px;
+}
+
+.horizontal-phone .phone {
+    position: absolute;
+}
+
+.phone.horizontal {
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.horizontal-phone .phone.layer {
+    z-index: 2;
+    top: 10px;
+    left: 58px;
+}
+
+.vertical-phone {
+    position: relative;
+    top: 175px;
+    left: -10px;
+}
+
+.vertical.phone {
+    position: absolute;
+    transform: rotate(-90deg);
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.vertical-phone .phone.layer {
+    position: absolute;
+    z-index: 2;
+    top: -60px;
+    left: 133px;
+}
+
+.vertical-phone .phone.shadow {
+    position: absolute;
+    top: -125px;
+    left: 120px;
+}
+
+.chev {
+    position: absolute;
+    top: 300px;
+}
+
+.chev.right {
+    right: 0px;
+    transform: rotate(180deg);
 }
 
 li a:visited {
