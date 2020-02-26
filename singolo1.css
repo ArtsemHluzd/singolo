@@ -9,10 +9,11 @@ body {
 }
 
 .wrapper-header {
-    height: 95px;
+    height: 89px;
     background-color: #2d303a;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .wrapper-main {
@@ -64,6 +65,12 @@ li:first-child {
     color: #494e62;
     vertical-align: 50%;
     margin-left: 12px;
+}
+
+.header-line {
+    background-color: #323746;
+    height: 6px;
+    width: 100%;
 }
 
 .horizontal-phone {
