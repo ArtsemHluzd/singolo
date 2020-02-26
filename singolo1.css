@@ -18,13 +18,15 @@ body {
 
 .wrapper-main {
     height: 600px;
-    background-color: #f06c64; 
+    background-color: #f06c64;
     position: relative;
 }
 
 .wrapper-services {
-    background-color: black;
-    height: 100px;
+    width: 1020px;
+    margin: auto;
+    height: 495px;
+    background-color: #f2f2f2;
 }
 
 .logo {
@@ -125,7 +127,7 @@ div.chev {
     top: 276px;
     background: url(assets/chev.png);
     height: 40px;
-    width: 40px; 
+    width: 40px;
     cursor: pointer;
 }
 
@@ -156,3 +158,76 @@ li a:link {
     text-decoration: none;
 }
 
+.wrapper-services h1 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.wrapper-services p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    /* padding-left: 40px; 
+    padding-top: 5px; */
+    padding: 5px 40px;
+    /* word-spacing: 1px; */
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 10px;
+}
+
+.service .border {
+    width: 57px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: #eb5055;
+    border: 2px solid #666d89;
+}
+
+.service h3 {
+    margin: 4px 19px;
+    color: #666d89;
+    height: 20px;
+}
+
+.service p {
+    margin-left: 4px;
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+}
+
+.border img {
+    margin: 8px;
+    margin-top: 10px;
+}
+
+div.service {
+    width: 940px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.service-item {
+    display: flex;
+}
+
+.service-item-description {
+    flex-direction: column;
+}
