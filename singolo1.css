@@ -5,8 +5,11 @@ html {
 
 body {
     width: 1020px;
-    margin: 0;
+    margin: auto;
+    background-color: #666666;
 }
+
+/* wrappers */
 
 .wrapper-header {
     height: 89px;
@@ -29,6 +32,8 @@ body {
     background-color: #f2f2f2;
 }
 
+/* header */
+
 .logo {
     margin-left: 40px;
     margin-top: 30px;
@@ -42,9 +47,9 @@ body {
     color: #f06c64;
 }
 
-.menu {
+nav.menu {
     margin-bottom: 35px;
-    margin-top: 35px;
+    margin-top: 33px;
     margin-right: 40px;
     padding: 0px;
 }
@@ -71,9 +76,11 @@ li:first-child {
 
 .header-line {
     background-color: #323746;
-    height: 6px;
+    height: 7px;
     width: 100%;
 }
+
+/* main */
 
 .horizontal-phone {
     position: relative;
@@ -158,6 +165,17 @@ li a:link {
     text-decoration: none;
 }
 
+/* services */
+
+div.service {
+    width: 1020px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+
 .wrapper-services h1 {
     font-size: 30px;
     line-height: 18px;
@@ -179,55 +197,74 @@ li a:link {
     /* padding-left: 40px; 
     padding-top: 5px; */
     padding: 5px 40px;
+    text-align: justify;
     /* word-spacing: 1px; */
-}
-
-h3 {
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 10px;
-}
-
-.service .border {
-    width: 57px;
-    height: 57px;
-    border-radius: 29px;
-    background-color: #eb5055;
-    border: 2px solid #666d89;
-}
-
-.service h3 {
-    margin: 4px 19px;
-    color: #666d89;
-    height: 20px;
-}
-
-.service p {
-    margin-left: 4px;
-    width: 219px;
-    height: 128px;
-    font-size: 12px;
-    line-height: 22px;
-    color: #767e9e;
-    font-weight: 400;
-    text-align: left;
-}
-
-.border img {
-    margin: 8px;
-    margin-top: 10px;
-}
-
-div.service {
-    width: 940px;
-    margin: auto;
-    margin-top: 40px;
 }
 
 .service-item {
     display: flex;
 }
 
+.service-item.heart {
+    margin-left: 4px;
+}
+
+.service-item.star {
+    margin-left: 4px;
+}
+
+div.service-item-icon {
+    height: 85px;
+}
+
+div.border {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    border: 2px solid #666d89;
+    text-align: center;
+}
+
+.border img {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+img.pen {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+img.star {
+    margin-top: 7px; 
+}
+
 .service-item-description {
+    margin: 4px 19px;
+    color: #666d89;
+    height: 85px;
+    width: 220px;
     flex-direction: column;
+    margin-bottom: 33px;
+}
+.service-item-description h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 10px;
+}
+
+.service-item-description p {
+    padding: 0px;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 1px;
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
 }
