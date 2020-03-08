@@ -400,8 +400,7 @@ color: #666d89;
 font-family: "Lato";
 font-weight: 900;
 text-align: left;
-padding-top: 5px;
-padding-right: 5px; 
+margin-top: 5px; 
 }
 
 div.about-us p {
@@ -410,6 +409,8 @@ div.about-us p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
+    margin-top: 30px;
+    margin-left: 5px; 
 }
 
 div.employee {
@@ -423,14 +424,14 @@ div.employer-item {
     font-weight: 400;
     width: 300px;
     height: 300px;
-    margin-right: 17px;
-    margin-top: 2px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 div.employer-item h3 {
     font-size: 16px;
     line-height: 18px;
-    margin-top: 15px;
+    margin-top: 20px;
     color: #666d89;
     font-weight: 900;
     letter-spacing: 0px;
@@ -441,7 +442,7 @@ div.employer-item p {
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
-    margin-top: 7px;
+    margin-top: 13px;
 }
 
 div.employer-item img {
@@ -454,7 +455,7 @@ div.employer-item img {
 
 div.contacts {
     display: flex;
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
 div.icon {
@@ -506,7 +507,7 @@ div.about-us-line {
 }
 
 .quote-line {
-    width: 1020px;
+    width: 1024px;
     height: 6px;
     background-color: #ea676b;
 }
@@ -631,7 +632,7 @@ section.contact-information {
 }
 
 footer {
-    width: 950px;
+    width: 954px;
     background-color: #2d303a;
     display: flex;
     justify-content: space-between;
